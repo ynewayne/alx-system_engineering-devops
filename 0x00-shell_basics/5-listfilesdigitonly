@@ -1,2 +1,2 @@
 #!/bin/bash
-list ls -lha
+list ls -l -h -a
