@@ -3,3 +3,4 @@ The second script displays the contents list of the current directory
 The third script changes the working directory to the user's home directory
 The fourth script displays current directory contents in a long format
 The fifth script displays current directory contents, including hidden files (starting with .)
+The sixth script Display current directory contents in Long format, with user and group IDs displayed numerically, and hidden files (starting with .)
