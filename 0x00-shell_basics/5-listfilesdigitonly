@@ -1,2 +1,2 @@
-#!/bbash/bin
-ls --lha
+#!/bash/bin
+ls -lha
