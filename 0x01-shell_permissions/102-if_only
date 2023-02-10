@@ -1,3 +1,2 @@
-[master 02ac0f2] made corrections to scripts 16 and 15
- 3 files changed, 5 insertions(+), 2 deletions(-)
- create mode 100644 0x01-shell_permissions/102-if_only
+#!/bin/bash
+chown --from=guillaume betty hello
