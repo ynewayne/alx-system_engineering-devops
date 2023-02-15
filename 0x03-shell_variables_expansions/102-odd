@@ -1,2 +1,0 @@
-#!/bin/bash
-awk 'BEGIN{printf "%.2f\n", ENVIRON["NUM"]/100}'
