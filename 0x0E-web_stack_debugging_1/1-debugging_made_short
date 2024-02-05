@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
-# Configure an Nginx server to listen on port 80
+# Fix Nginx to listen on port 80
 
-# creates a symbolic link (-s) between the Nginx configuration file and enables the sites directory
-ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-# restart nginx
-service nginx start
-# terminate the first nginx process ID
-kill "$(pgrep nginx | head -1)"
+apt update
+apt install -y nginx
+sed -i 's/80 default_server/80/' /etc/nginx/sites-available/default
+service nginx restart
