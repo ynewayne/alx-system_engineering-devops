@@ -1,10 +1,5 @@
 #!/usr/bin/python3
-"""
-Exports to-do list information of all employees to JSON format.
-
-This script retrieves user details and their respective to-do lists for all employees
-from the JSONPlaceholder API and exports the collected data to a JSON file.
-"""
+"""Exports to-do list information of all employees to JSON"""
 
 import json
 import requests
