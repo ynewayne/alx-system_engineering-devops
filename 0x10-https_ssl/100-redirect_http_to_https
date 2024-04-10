@@ -47,5 +47,5 @@ frontend bodaa-frontend-https
 
 backend bodaa-backend
         balance roundrobin
-        server 237634-web-01 52.91.117.144:80 check
-        server 237634-web-02 18.209.152.174:80 check
+        server 237634-web-01 54.87.238.132:80 check
+        server 237634-web-02 54.90.17.147:80 check
